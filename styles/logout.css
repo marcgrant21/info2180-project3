@@ -1,0 +1,60 @@
+body{
+    background-color: #9198e5;
+}
+
+.myGrid{
+    display: grid;
+    height: auto;
+    width: auto;
+}
+
+.topBox{
+    grid-column-start: 1;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    display: flex;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 30px;
+    justify-content: left;
+    font-size: 9px;
+    border: 2px solid #e6005c;
+    border-radius: 20px;
+    background: #e6005c;
+}
+
+.sideBox{
+   width: 159px;
+   height: 150px;
+   margin-left: 20px;
+   margin-top: 20px;
+   border: 2px solid #ffb3d1;
+   border-radius: 20px;
+   background: #ffb3d1;
+}
+
+img{
+    width: 20px;
+    height: 20px;
+    margin-left: 20px;
+    
+}
+
+#loginpage{
+    margin-left:20px;
+    font-family: cursive;
+}
+
+.centerBox{
+    margin-top: 10px;
+    margin-left: 10px;
+    font-family: Times;
+    width: 500px;
+    margin-right: 600px;
+}
+
+#LogIn{
+    margin-top:20px;
+
+}

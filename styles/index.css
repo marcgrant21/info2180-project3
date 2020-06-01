@@ -1,0 +1,57 @@
+body{
+    background-color: #9198e5;
+}
+
+.myGrid{
+    display: grid;
+    height: auto;
+    width: auto;
+    
+}
+
+.topBox{
+    grid-column-start: 1;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    display: flex;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 30px;
+    justify-content: center;
+    
+}
+
+.sideBox{
+    margin-top: 10px;
+    margin-left: 10px;
+    display: flex;
+   
+
+}
+
+.CenterBox{
+    margin-top: 10px;
+    margin-left: 100px;
+    flex-wrap: wrap;
+    border: 2px solid Purple;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+#submit{
+    border-radius: 10px;
+    background-color: #e66465;
+    font-family: sans-serif;
+    margin-left: 20px;
+}
+
+#curveIT{
+    border-radius: 20px; 
+ }
+ 
+ #SecondImg{
+     width:200px;
+     height: 300px;
+     margin-left: 100px;
+ }

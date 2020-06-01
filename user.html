@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Hire Me </title>
+    <link href="styles/user.css" type="text/css" rel="stylesheet"/>
+ </head>
+ <body>
+<div class="myGrid">
+ <div class="topBox" >
+   <h2> Hire Me </h2>
+</div>
+<div class="sideBox">
+   <img src="img/home.jpg" id="home" id="icon"> <a href="homescreen.html"> Home </a> </img> 
+   <br><br>
+   <img src="img/addon.jpg" id="Addon" id="icon"> <a href="user.html"> Add User </a> </img>
+   <br> <br>
+   <img src="img/edit.jpg" id="Edit" id="icon"> <a href="jobs.html"> New Job </a> </img> 
+    <br> <br>
+   <img src="img/logout.jpg" id="Logout" id="icon"> <a href="index.html"> Logout </a> </img>
+</div>
+<div class="CenterBox">
+  <h3> New User </h3>
+
+  <form method="POST" action="user.php">
+
+    Firstname <br> 
+    <input name="firstname" type="text" size="25" id="curvIt" />   <br> <br>
+
+    Lastname <br>
+    <input name="lastname" type="text" size="25" id="curvIt" />    <br> <br>
+
+    Password <br>
+    <input type="text" name="password" size="25" id="curvIt" />   <br> <br>
+
+    Email <br>
+    <input type="text" name="email" size="25" placeholder="e.g. mary.jane@example.com" id="curvIt" />  <br> <br>
+
+    Telephone <br>
+    <input type="text" name="telephone" size="25" placeholder="e.g. 876-999-8969" id="curvIt" />    <br> <br>
+    <!--<button id="signIn" type="submist">Sign In</button>-->
+  <input type="submit" value="Submit" id="submit">
+  </form>
+</div>
+</div>
+</body>
+
+</html>

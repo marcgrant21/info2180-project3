@@ -1,0 +1,70 @@
+body{
+  background-image: white;
+}
+
+.myGrid{
+    display: grid;
+    height: auto;
+    width: auto;
+
+}
+
+.topBox{
+    grid-column-start: 1;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    display: flex;
+    justify-content: left;
+    border:2px solid black;
+    color: white;
+    background-color: black;
+    font-family: cursive;
+    font-size: 9px;
+    padding-left: 20px;
+
+}
+
+.sideBox{
+   border: 2px solid #e6e6e6;
+   background-color: #e6e6e6;
+   width: 200px;
+   height: 500px;
+}
+
+.CenterBox{
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 20px;
+    font-family: Times;
+    width: 500px;
+    margin-right: 600px;
+}
+
+#submit{
+    border-radius: 4px;
+    background-color: #008CBA;
+    font-family: sans-serif;
+    width: 120px;
+}
+
+#icon{
+    border-radius: 20px;
+    
+}
+
+#curvIt{
+    border-radius: 5px;
+    width: 300px;
+}
+
+#home{
+    margin-top: 30px;
+}
+
+img{
+    width: 20px;
+    height: 20px;
+    margin-left: 20px;
+    
+}
